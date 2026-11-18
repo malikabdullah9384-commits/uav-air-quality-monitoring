@@ -1,16 +1,66 @@
-# React + Vite
+# ATMOS AI – UAV Air Quality Monitoring
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React-based dashboard prototype for UAV-assisted environmental monitoring, featuring simulated air quality readings, drone status information, pollution trends, and alerts.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ATMOS AI is a Final Year Project prototype designed to demonstrate how unmanned aerial vehicles (UAVs) could support air quality monitoring and visualization. The current implementation is a frontend dashboard using simulated data.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Air quality monitoring dashboard
+- Simulated environmental readings and pollution indicators
+- PM2.5 trend visualization
+- UAV status and telemetry interface
+- Pollution alerts and monitoring summaries
+- Responsive user interface
 
-## Expanding the Oxlint configuration
+## Technology Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- JavaScript / JSX
+- Vite
+- CSS
+- Recharts
+- Lucide React
+
+## Installation and Setup
+
+### Prerequisites
+
+- Node.js and npm
+
+### Run Locally
+
+```bash
+ git clone https://github.com/malikabdullah9384-commits/uav-air-quality-monitoring.git
+ cd uav-air-quality-monitoring
+ npm install
+ npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+## Project Structure
+
+```text
+src/        React components, styling, and assets
+public/     Static assets
+index.html  Application entry HTML
+package.json Project dependencies and scripts
+```
+
+## Current Development Status
+
+Frontend prototype. Live UAV sensor integration, backend data storage, and AI-based forecasting are future development goals and are not implemented in the current version.
+
+## Future Enhancements
+
+- Integrate actual UAV-mounted environmental sensors
+- Connect a backend and database for persistent monitoring data
+- Develop and integrate forecasting models
+- Add geographic mapping and historical monitoring reports
+
+## Academic Context
+
+Developed as an academic Final Year Project prototype for exploring UAV-assisted air quality monitoring.
